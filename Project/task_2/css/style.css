@@ -1,0 +1,46 @@
+h1{
+    
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2{
+    
+    font-size: 24px;
+    font-style: oblique;
+}
+
+p{
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+pre{
+    background-color: rgb(8, 46, 61);
+    size: 100px;
+}
+
+.clgreen{
+    color: #00ff00;
+}
+
+.clblue{
+    color: #00ff;
+}
+
+.colorteg{
+    color: dodgerblue;
+}
+
+.clproperty{
+    color: olivedrab;
+}
+ 
+.clnum{
+    color: mediumvioletred;
+}
+
+.clwhite{
+    color: floralwhite;
+}
