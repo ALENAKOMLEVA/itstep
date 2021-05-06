@@ -26,3 +26,13 @@ ins del{
 .pink{
     color: rgb(255, 175, 218);
 }
+
+
+.nocolor{
+    color: #FFF;
+}
+
+.nocolor:hover{
+    color:#494949;  
+}
+
