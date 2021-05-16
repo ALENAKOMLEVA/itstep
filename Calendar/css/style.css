@@ -1,0 +1,85 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th{
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgb(0, 53, 50) ;
+}
+
+
+
+td{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(0, 53, 50);
+}
+
+th{
+    background-color: lightseagreen;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 97, 92);
+    text-align: center;
+}
+
+span{
+    font-size: 25px;
+}
+
+
+tr:nth-child(2) td:nth-child(n){
+    text-align: center;
+    color: rgb(3, 77, 78);
+    background-color: rgb(141, 228, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(n+3) td:nth-child(n){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: bottom;
+
+    
+}
+
+.photo{
+    background-image: url(../img/KnowDay.png);
+    background-size: cover;
+}
+
+.photo2{
+    background-image: url(../img/writing.png);
+    background-size: cover;
+}
+
+.photo3{
+    background-image:url(../img/den-lesnika.jpg);
+    background-size: contain;
+    
+   
+}
+
+.photo3:hover{
+    background-image:url(../img/den-lesnika.jpg);
+    background-size: cover;
+    transition:5s ;
+     
+
+}
+
+.photo4{
+    background-image: url(../img/language.jpg);
+    background-size: cover;
+}
+
+.photo5{
+    background-image: url(../img/program.jpg);
+    background-size: cover;
+}
+
+.birthday{
+    background-image: url(../img/birthday.jpg);
+    background-size: cover;
+}

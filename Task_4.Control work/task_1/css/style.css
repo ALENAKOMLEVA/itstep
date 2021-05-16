@@ -1,0 +1,205 @@
+
+ 
+
+.fig{
+    text-align: center;
+}
+
+@font-face{
+    font-family: SlimamifMedium;
+    src: url("C:/Program Files/Git/MY/Task_4.Control work/task_1/20451.ttf");
+    font-size: 24px;
+
+} 
+
+
+
+h1{
+    font-family: SlimamifMedium;    
+    text-shadow: maroon 2px 2px 3px;
+}
+
+h2{
+    font-size: 18px;
+    font-family: SlimamifMedium;  
+    color: chocolate;
+    text-shadow: maroon 2px 2px 3px;
+    font-stretch:expanded;
+}
+
+p {
+    line-height: 2;
+    text-indent: 20px;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+
+.rounded {
+    counter-reset: li; 
+    list-style: none; 
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.rounded a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 6em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    margin-left: 10px;
+    
+}
+
+
+
+
+.rounded a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    
+}
+
+
+a {
+    padding: 2px; /* Поля вокруг текста ссылки */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+a:hover {
+    background:rgb(255, 201, 100); /* Цвет фона при наведении на ссылку курсора */
+    color:rgb(138, 74, 31); /* Новый цвет текста */
+}
+
+.clblue{
+    color: rgb(20, 44, 44);
+    
+    padding: 1px;
+    background-color: rgb(159, 233, 255);
+}
+
+.clgrey{
+    color: rgb(43, 53, 53);
+   
+    padding: 1px;
+    background-color: rgb(194, 194, 194);
+}
+
+.sky{
+    color:dodgerblue;
+}
+
+pre{
+    background-color: rgb(8, 46, 61);
+    size: 100px;
+}
+
+.clgreey{
+    color: gray;
+}
+
+.clgreen{
+    color: teal;
+}
+
+.clred{
+    color: brown;
+}
+
+.cllightgreen{
+    color: greenyellow;
+}
+
+table.t1 {
+    margin: 1em auto;
+    border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid #fff;
+    border-spacing: 0;
+    margin-bottom: auto;
+}
+
+td {
+    
+    border: 1px solid #fff;
+
+}
+
+th{
+    border: 1px solid #fff;
+}
+
+.t1 th, .t1 td {
+    padding: 4px 8px;
+}
+
+.t1 thead th {
+    background: #4f81bd;
+    text-transform: lowercase;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+}
+
+.t1 tr {
+    border-right: 1px solid #95b3d7;
+}
+
+
+.t1 tbody tr {
+    border-bottom: 1px solid #95b3d7;
+}
+
+.t1 tbody tr:nth-child(odd) {
+    background: #dbe5f0;
+}
+
+.t1 tbody th, .t1 tbody tr:nth-child(even) td {
+    border-right: 1px solid #95b3d7;
+}
+
+.t1 tfoot th {
+    background: #4f81bd;
+    text-align: left;
+    font-weight: normal;
+    font-size: 10px;
+    color: #fff;
+}
+
+.t1 tr :nth-child(3), .t1 tr :nth-child(4) {
+    text-align: right;
+}
+
+
+
+.marker_list{
+    list-style-image: url("C:/Program Files/Git/MY/Task_4.Control work/task_1/img/marker.png");
+}
+
+.list{
+    width: 400px; 
+    background: rgb(255, 168, 87);
+    padding: 5px;
+    padding-right: 20px; 
+    border:  1px solid rgb(173, 108, 10); 
+    border-width: medium;
+    cursor: pointer;
+   
+    
+}

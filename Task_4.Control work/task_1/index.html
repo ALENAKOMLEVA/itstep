@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/normalizecss.css">
+</head>
+<body>
+   
+    <p class="fig"><img src="img/js.jpg" width="900" alt=""></p> 
+
+    <blockquote><tt><i>Не следует путать с Java.<br>
+        Не следует путать с JScript.</i></tt></blockquote>
+  <div class="list">
+    <ol id="list">
+           <li><a href="#menu1">JavaScript</a></li>
+           <li><a href="#menu2">Структура языка</a></li>
+           <li><a href="#menu3">Возможноси языка</a></li>
+           <li><a href="#menu4">Так что же он действительно может делать?</a></li>
+           <li><a href="#menu5">Пример "hello world"</a></li>
+           <li><a href="#menu6">Что делает JavaScript особенным?</a></li>
+           <li><a href="#menu7">Как добавить JavaScript на сайт?</a></li>
+           <li><a href="#menu8">Пример кода</a></li>
+    </ol>
+  </div>  
+    <h1 id="menu1"><a href="https://ru.wikipedia.org/wiki/JavaScript"><strong>
+    <u>JavaScript</strong></u></a></h1>
+
+    <p>JavaScript (<em>/ˈdʒɑːvɑːˌskrɪpt/; аббр. JS /ˈdʒeɪ.ɛs./</em>) — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. 
+    Является реализацией спецификации <span class="clgrey"> (стандарт ECMA-262)</span>.
+    JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для 
+    придания интерактивности веб-страницам.
+
+    <p class="fig"><img src="img/cake.png" width="200" alt=""></p> 
+
+    <p>На JavaScript оказали влияние многие языки, при разработке была цель сделать язык похожим на Java. Языком JavaScript не владеет какая-либо компания или
+ организация, что отличает его от ряда языков программирования, используемых в веб-разработке.</p>  
+
+    <p>Название «JavaScript» является зарегистрированным товарным знаком корпорации Oracle в США.</p>
+
+    <p> <img src="img/js-h.jpg" width="300" height="150" alt="" align="right" 
+        vspace="5" hspace="5" >В 1992 году компания Nombas (впоследствии приобретённая Openwave) начала разработку встраиваемого скриптового языка <span class="clgrey">Cmm </span>(Си-минус-минус), 
+    который, по замыслу разработчиков, должен был стать достаточно мощным, чтобы заменить макросы, сохраняя при этом схожесть с Си, чтобы разработчикам 
+    не составляло труда изучить его. Главным отличием от Си была работа с памятью. В новом языке всё управление памятью осуществлялось автоматически: 
+    не было необходимости создавать буферы, объявлять переменные, осуществлять преобразование типов. В остальном языки сильно походили друг на друга: в
+    частности, Cmm поддерживал стандартные функции и операторы Си. Cmm был переименован в ScriptEase, поскольку исходное название звучало слишком негативно, а
+    упоминание в нём Си «отпугивало» людей. На основе этого языка был создан проприетарный продукт CEnvi. В конце ноября 1995 года Nombas разработала версию CEnvi, 
+    внедряемую в веб-страницы. Страницы, которые можно было изменять с помощью скриптового языка, получили название <span class="clgrey">Espresso Pages</span> — они демонстрировали использование скриптового
+    языка для создания игры, проверки пользовательского ввода в формы и создания анимации. Espresso Pages позиционировались как демоверсия, призванная помочь представить, что
+    случится, если в браузер будет внедрён язык Cmm. Работали они только в 16-битовом Netscape Navigator под управлением <span class="clgrey">Windows.</span></p>
+
+
+    
+
+    </p>
+   <p><b>Основные архитектурные черты:</b>
+       <ol class="rounded">
+         <li><a href="#"></a>динамическая типизация,</li>
+         <br>
+         <li><a href="#"></a>слабая типизация,</li>
+         <br>
+         <li><a href="#"></a>автоматическое управление памятью, </li>
+         <br>
+         <li><a href="#"></a>прототипное программирование, </li> 
+         <br>
+         <li><a href="#"></a>функции как объекты первого класса.</li> 
+       </ol>
+    </p> 
+
+    <hr>
+
+    <h2 id="menu2"><u>Структура языка</u></h2>
+
+      <p><b>Структурно JavaScript можно представить в виде объединения трёх чётко различимых друг от друга частей:</b></p>
+
+       <ul class="marker_list">
+          <li>ядро <span class="clgrey">(ECMAScript)</span>,</li><br>
+          <li> модель браузера <span class="clgrey">(Browser Object Model или BOM (англ.))</span>,</li><br>
+          <li>объектная модель документа <span class="clgrey">(Document Object Model или DOM)</span>.</li><br>
+        </ul>  
+      <p>Если рассматривать JavaScript в отличных от браузера окружениях, то объектная модель браузера и объектная модель документа могут не поддерживаться.
+       
+     Объектную модель документа иногда рассматривают как отдельную от JavaScript сущность, что согласуется с определением DOM как независимого
+     от языка интерфейса документа. В противоположность этому ряд авторов находит BOM и DOM тесно взаимосвязанными.</p>
+
+      
+    <hr>
+    <h2 id="menu3"><u>Возможности языка</u></h2>
+    
+    <p> JavaScript является объектно-ориентированным языком, но используемое в языке прототипирование обуславливает отличия в работе с объектами по сравнению с традиционными 
+    класс-ориентированными языками. Кроме того, JavaScript имеет ряд свойств, присущих функциональным языкам — функции как объекты первого класса, объекты как списки, карринг, анонимные функции, замыкания — что придаёт языку дополнительную гибкость.</p>
+
+
+    <hr>
+    <h2 id="menu4"><u>Так что же он действительно может делать?</u></h2>
+    
+    <p><b>Ядро языка JavaScript состоит из некоторого количества обычных возможностей, которые позволяют делать следующее:</b>
+        <ul>
+            <li>Хранить данные внутри переменных. В примере выше, мы, например, запрашивали ввод нового имени, которое нужно было ввести, затем сохраняли имя в переменной name.</li>
+             <br>
+            <li>Операции над фрагментами текстов (известными в программировании как "строки").</li>
+             <br>
+            <li>Запускать код в соответствии с определёнными событиями происходящими на web странице. В нашем примере выше, мы использовали <span class="clblue">click</span> (en-US) событие, для определения момента, 
+            когда кнопка была кликнута, в соответствии с этим запускался код, который обновлял текст.</li>
+             <br>
+            <li>И многое другое!</li>
+         </ul>
+    </p>
+
+    
+
+      <table class="t1" summary="Список операторов присваивания JavaScript">
+        <caption>Список операторов присваивания</caption>
+        <thead>
+            <th>Имя</th>
+            <th>Сокращенный оператор</th>
+            <th>Смысл</th>
+        </thead>
+        <tfoot>
+            <tr><th colspan="3">developer.mozilla.org</th></tr>
+            </tfoot>
+        <tbody>  
+        <tr>
+			<td><a href="https://developer.mozilla.org/ru/docs/conflicting/Web/JavaScript/Reference/Operators_8d54701de06af40a7c984517cbe87b3e#assignment">Присваивание</a></td>
+			<td>x = y</td>
+			<td>x = y</td>
+		</tr>
+           
+		<tr>
+			<td>Присваниевание со сложением</td>
+			<td>x +=y</td>
+			<td>x = x + y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с вычитанием</td>
+			<td>x -= y</td>
+			<td>x = x - y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с умножением</td>
+			<td>x *= y</td>
+			<td>x = x * y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с делением</td>
+			<td>x /= y</td>
+			<td>x = x / y</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Присваниевание по модулю</td>
+			<td>x %= y</td>
+			<td>x = x % y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с левым сдвигом</td>
+			<td>x <<= y</td>
+			<td>x = x << y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с правым сдвигом</td>
+			<td>x >>= y</td>
+			<td>x = x >> y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с беззнаковым сдвигом</td>
+			<td>x >>>= y</td>
+			<td>x = x >>> y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с побитовым AND </td>
+			<td>x &= y</td>
+			<td>x = x & y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с побитовым XOR</td>
+			<td>x ^= y</td>
+			<td>x = x ^ y</td>
+		</tr>
+		<tr>
+			<td>Присваниевание с побитовым OR</td>
+			<td>x |= y</td>
+			<td>x = x | y</td>
+		</tr>
+         </tbody>  
+      </table>
+
+    <hr>
+
+    <h2 id="menu5"><u>Пример "hello world"</u></h2>
+    <img src="img/hello-world.jpg" width="400" height="100" alt="" align="center" 
+    vspace="5" hspace="5" 
+
+       <ol>
+        <li>Для начала перейдите на ваш тестовый сайт и создайте папку с именем 'scripts' (без кавычек). Затем, в новой папке скриптов, которую вы только что создали, создайте новый файл 
+             с именем <span class="clblue">main.js.</span> Сохраните его в вашей папке <span class="clgrey">scripts</span>.</li>
+          <br>
+        <li>Далее перейдите в ваш <span class="clblue">index.html</span> файл и введите следующий элемент на новой строке прямо перед закрывающим тегом <span class="clgrey">&lt;/body&gt;</span>:
+    
+            <span class="clred">&lt;script src="scripts/main.js"&gt;</span>&lt;/script&gt;
+        </li>
+          <br>
+        <li>В основном этот код выполняет ту же работу, что и элемент <span class="clgrey">&lt;link&gt;</span> для CSS — добавляет JavaScript на страницу, позволяя ему взаимодействовать с HTML (и CSS, и чем-нибудь ещё на странице).</li>
+          <br>
+        <li>Теперь добавьте следующий код в файл <span class="clblue">main.js:</span>
+    
+            <span class="clred"><br>vаr mуHеading = dоcument.querySеlector('h1');<br>
+              myHeading.textContent = 'Hello world!';</span>
+        </li>
+           <br>
+        <li>Теперь убедитесь, что HTML и JavaScript файлы сохранены, и загрузите <span class="clblue">index.html</span> в браузере. </li>
+     
+         </ol>
+
+   <hr>      
+   <h2 id="menu6"><u>Что делает JavaScript особенным?</u></h2> 
+    
+    <p><b>Как минимум, три сильные стороны JavaScript:</b></p>
+      <ul>
+    
+           <li> Полная интеграция с HTML/CSS.</li>
+           <li>Простые вещи делаются просто.</li>
+           <li> Поддерживается всеми основными браузерами и включён по умолчанию.</li>
+      </ul>
+    <p>JavaScript – это единственная браузерная технология, сочетающая в себе все эти три вещи.
+    
+    Вот что делает JavaScript особенным. Вот почему это самый распространённый инструмент для создания интерфейсов в браузере.
+    
+    Хотя, конечно, JavaScript позволяет делать приложения не только в браузерах, но и на сервере, на мобильных устройствах и т.п.</p>
+    
+    <hr>
+    <h2 id="menu7"><a href="https://javascript.ru/tutorial/foundation/start"><u>Как добавить JavaScript на сайт?</u></a></h2>
+    
+    <p>Добавить строку кода JavaScript на сайт можно используя тэг <span class="clgrey">
+    &lt;script&gt;</span>. Вы можете использовать следующий пример для наглядности того, как это выглядит на практике:<br>
+    
+    <span class="sky">&lt;script</span> <span class="clgreey">type=</span><span class="clgreen">"text/javascript&gt;</span><br>
+    <span class="sky">Your JavaScript code</span><br>
+    <span class="sky">&lt;/scrip&gt;</span><br>
+    
+    Как основное правило, вставка вашего кода JavaScript внутри тэгов <span class="clgrey">&lt;header&gt;</span>, если только вам не нужно его выполнение в определённое время или на определённых элементах страницы.
+     Вы также можете сохранить свой код JavaScript в отдельном файле и вызвать его там, где понадобится на сайте.</p>
+    
+    <hr>
+    <h2 id="menu8"><u>Пример кода</u></h2>
+    <pre>
+
+    
+        <span class="clgreey">&lt;</span><span class="sky">script</span><span class="clgreey">&gt;</span>
+        <span class="clgreey">function</span><span class="sky"> Home</span><span class="clgreey">()</span>
+        <span class="clgreey">{</span><span class="sky"> lоcation. href</span><span class="cllightgreen">=</span><span class="clgreen">"/java/example.php"</span><span class="clgreey">;}</span>
+        <span class="clgreey">&lt;/</span><span class="sky">script</span><span class="clgreey">&gt;</span>
+    
+    </pre>
+    <p>
+        Теги - 30<br>
+        CSS-свойства - 41
+    </p>
+    
+</body>
+</html>
+
+
+
