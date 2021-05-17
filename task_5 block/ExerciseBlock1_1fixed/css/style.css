@@ -1,0 +1,48 @@
+.out{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+
+.in1{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    position: fixed;
+    color: ivory;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+
+.in2{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% + 100px);
+}
+
+.in3{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: fixed;
+    top: calc(50% + 100px);
+    left: calc(50% + 100px);
+}
+
+.in4{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: fixed;
+    top: calc(50% + 100px);
+    left: calc(50% - 200px);
+}
