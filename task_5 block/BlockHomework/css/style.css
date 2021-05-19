@@ -1,0 +1,51 @@
+.out{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+
+.in1{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    position: absolute;
+    color: ivory;
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
+}
+
+.in2{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% + 200px);
+}
+
+.in3{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: absolute;
+    top: calc(50% + 200px);
+    left: calc(50% + 200px);
+}
+
+.in4{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: absolute;
+    top: calc(50% + 200px);
+    left: calc(50% - 300px);
+}

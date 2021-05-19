@@ -1,0 +1,47 @@
+.out{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    position:relative;
+    margin: 150px;
+    margin: 180px;
+}
+
+.in1{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    position: relative;
+    color: ivory;
+    margin: -100px 0px 0px -100px;
+}
+
+.in2{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+
+.in3{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+
+.in4{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    color: ivory;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
