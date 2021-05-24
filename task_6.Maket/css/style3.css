@@ -1,0 +1,72 @@
+div{
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+.main{
+    width: 400px;
+    height: 400px;  
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    
+    
+}
+
+
+
+.header_left{
+    width: 100px;
+    height: 100px;
+    background: lightseagreen;
+}
+
+.header_center{
+    width: 100px;
+    height: 100px;
+    background: cadetblue;
+}
+
+.header_right{
+    width: 200px;
+    height: 100px;
+    background: crimson;
+}
+
+.menu-1, .menu-2{
+    width: 100px;
+}
+
+.posts{
+    width: 200px;
+}
+
+.post{
+    width: 100px;
+    height: 100px;
+    background: #ff7734;    
+}
+
+.menu-item{
+    height: 200px;
+    width: 100px;
+    background: cornflowerblue;
+    line-height: 200px;
+}
+
+.menu-item2{
+    width: 100px;
+    height: 100px;
+    background: cyan;
+}
+
+.menu-2{
+    line-height: 300px;
+    height: 300px;
+    background: darkgreen;
+}

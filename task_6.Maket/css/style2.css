@@ -1,0 +1,73 @@
+div{
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main{
+    width: 600px;
+    height: 650px;  
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);  
+}
+
+
+
+.red-1{
+    width: 150px;
+    height: 50px;
+    background: #CD5C5C;
+}
+
+.red-2{
+    width: 150px;
+    height: 50px;
+    background: #DC143C ;
+}
+
+.red-3{
+    width: 150px;
+    height: 50px;
+    background: #8B0000;
+}
+
+.red-4{
+    width: 150px;
+    height: 50px;
+    background: #FF0000;
+}
+
+.news{
+    width: 600px;
+    
+    float: left;
+}
+
+.pink-1-1{
+    width: 180px;
+    height: 50px;
+    background: #FFC0CB;
+}
+
+
+
+.pink-1-2{
+    width: 180px;
+    height: 50px;
+    background: #FF69B4;
+    
+   
+}
+
+.news-2{
+    width: 420px;
+    height: 100px;
+    background: #C71585;
+    
+    right: calc(20% - 300px);
+    
+}
