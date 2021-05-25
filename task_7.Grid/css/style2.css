@@ -54,31 +54,31 @@ div{
 .col-1,.col-2,.col-3,.col-4,
 .col-5,.col-6,.col-7,.col-8,
 .col-9,.col-10,.col-11,.col-12{
-	min-height: 1px;
+	min-height: 0px;
 }
 .block-1{
 	width: 100%;
 	border: 15px solid #fff;
 	height: 150px;
-	background: #f00;
+	background: rgb(100, 100, 100);
 }
 .block-15{
 	width: 100%;
 	border: 15px solid #fff;
 	height: 225px;
-	background: #f00;
+	background: rgb(100, 100, 100);
 }
 .block-2{
 	width: 100%;
 	border: 15px solid #fff;
 	height: 300px;
-	background: #f00;
+	background:rgb(100, 100, 100);
 }
 .block-3{
 	width: 100%;
 	border: 15px solid #fff;
 	height: 450px;
-	background: #f00;
+	background: rgb(100, 100, 100);
 }
 .pull-left-1{
 	margin-left: 8.33333%;
