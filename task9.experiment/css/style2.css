@@ -316,56 +316,58 @@ div{
     background: #00fa9a;
 }
 .cl11{
-    background: #2e8b57;
-}
-.cl12{
     background: #006400;
 }
-.cl13{
-    background: #9acd32;
-}
-.cl14{
+.cl12{
     background: #808000;
 }
+.cl13{
+    background: #556b2f;
+}
+.cl14{
+    background: #2e8b57;
+}
 .cl15{
-    background: #66cdaa;
+    background: #9acd32;
 }
 .cl16{
-	background: #556e2f;
+	background: #66cdaa;
 }
+
+
+.cll15{
+	background: #ffa07a;
+}
+
+.cll16{
+    background: #ff4500;
+}
+
 
 .cl17{
 	background: #008080;
 }
-
 .cl18{
-	background: #ffa07a;
-}
-
-.cl19{
     background: #ff4500;
 }
-
+.cl19{
+    background: #ffa500;
+}
 .cl20{
-	background: #ffa500;
+    background: #bc8f8f;
 }
-
 .cl21{
-	background: #d2691e;
+    background: #f4a460;
 }
-
 .cl22{
-	background: #8b4513;
+    background: #d2691e;
 }
 .cl23{
-	background: #a52a2a;
+    background: #8b4513;
 }
 .cl24{
-	background: #800000;
+    background: #a52a2a;
 }
 .cl25{
-	background: #bc8f8f;
-}
-.cl26{
-	background: #f4a460;
+    background: #800000;
 }
