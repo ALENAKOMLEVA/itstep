@@ -1,0 +1,324 @@
+.ear-left{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid rgb(41, 41, 41);
+    margin-top: 50px;
+    margin-left: 560px;
+}
+
+.ear-right{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid rgb(41, 41, 41);
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+.head{
+    margin-top: 78px;
+    margin-left: 523px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background:rgb(41, 41, 41);
+    border-radius: 50%
+
+}
+
+.eye-left{
+    margin-top: 175px;
+    margin-left: 580px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background:rgb(189, 189, 189);
+    border-radius: 50%
+}
+
+.eye-right{
+    margin-top: 175px;
+    margin-left: 707px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background:rgb(189, 189, 189);
+    border-radius: 50%
+}
+
+.eye-pupil-1{
+    margin-top: 175px;
+    margin-left: 707px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background:rgb(41, 41, 41);
+    border-radius: 50%
+}
+
+.eye-pupil-2{
+    margin-top: 175px;
+    margin-left: 580px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background:rgb(41, 41, 41);
+    border-radius: 50%
+}
+
+.nose{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(243, 168, 168);
+    margin-left: 645px;
+    margin-top: 240px;
+
+}
+
+.body{
+    margin-top: 305px;
+    margin-left: 480px;
+    position: absolute;
+    width: 455px;
+    height: 600px;
+    background:rgb(41, 41, 41);
+    border-radius: 50%
+}
+
+.small-body{
+    margin-top: 370px;
+    margin-left: 560px;
+    position: absolute;
+    width: 235px;
+    height: 400px;
+    background:rgb(138, 137, 137);
+    border-radius: 50%
+}
+
+.hand-left{
+    margin-top: 778px;
+    margin-left: 540px;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background:rgb(138, 137, 137);
+    border-radius: 50%
+}
+
+.hand-right{
+    margin-top: 785px;
+    margin-left: 710px;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background:rgb(138, 137, 137);
+    border-radius: 50%
+}
+
+.mustache-1{
+    position: absolute;
+    width: 135px;
+    height: 3px;
+    background: rgb(138, 137, 137);
+    margin-top: 246px;
+    margin-left: 485px;
+    transform: rotate(10deg);
+}
+
+.mustache-2{
+    position: absolute;
+    width: 135px;
+    height: 3px;
+    background: rgb(138, 137, 137);
+    margin-top: 260px;
+    margin-left: 485px;
+}
+
+.mustache-3{
+    position: absolute;
+    width: 135px;
+    height: 3px;
+    background: rgb(138, 137, 137);
+    margin-top: 270px;
+    margin-left: 485px;
+    transform: rotate(353deg)
+}
+
+.mustache-4{
+    position: absolute;
+    width: 135px;
+    height: 3px;
+    background: rgb(138, 137, 137);
+    margin-top: 275px;
+    margin-left: 714px;
+    transform: rotate(190deg);
+}
+
+.mustache-5{
+    position: absolute;
+    width: 135px;
+    height: 3px;
+    background: rgb(138, 137, 137);
+    margin-top: 263px;
+    margin-left: 714px;
+    
+}
+
+.mustache-6{
+    position: absolute;
+    width: 135px;
+    height: 3px;
+    background: rgb(138, 137, 137);
+    margin-top: 250px;
+    margin-left: 714px;
+    transform: rotate(171deg);
+}
+
+.vibris-1{
+    position: absolute;
+    width: 3px;
+    height: 114px;
+    background: rgb(138, 137, 137);
+    margin-top: 48px;
+    margin-left: 590px;
+    transform: rotate(171deg);
+}
+
+.vibris-2{
+    position: absolute;
+    width: 3px;
+    height: 95px;
+    background: rgb(138, 137, 137);
+    margin-top: 68px;
+    margin-left: 600px;
+    
+}
+
+.vibris-3{
+    position: absolute;
+    width: 3px;
+    height: 114px;
+    background: rgb(138, 137, 137);
+    margin-top: 48px;
+    margin-left: 610px;
+    transform: rotate(10deg);
+}
+
+.vibris-4{
+    position: absolute;
+    width: 3px;
+    height: 114px;
+    background: rgb(138, 137, 137);
+    margin-top: 48px;
+    margin-left: 720px;
+    transform: rotate(351deg);
+}
+
+.vibris-5{
+    position: absolute;
+    width: 3px;
+    height: 95px;
+    background: rgb(138, 137, 137);
+    margin-top: 68px;
+    margin-left: 730px;
+}
+
+.vibris-6{
+    position: absolute;
+    width: 3px;
+    height: 114px;
+    background: rgb(138, 137, 137);
+    margin-top: 48px;
+    margin-left: 740px;
+    transform: rotate(9deg);
+}
+
+.tail{
+    position: absolute;
+    width: 590px;
+    height: 350px;
+    background: rgb(41, 41, 41);
+    border-radius: 175px;
+    margin-top: 787px;
+    margin-left: 509px;
+}
+
+.w-tail{
+    position: absolute;
+    width: 590px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    border-radius: 175px;
+    margin-top: 733px;
+    margin-left: 378px;
+}
+
+.tail-circle{
+    margin-top: 951px;
+    margin-left: 542px;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background:rgb(41, 41, 41);
+    border-radius: 50%
+}
+
+.leg{
+    margin-top: 545px;
+    margin-left: 666px;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    background:rgb(41, 41, 41);
+    border-radius: 50%
+}
+
+.collar{
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    background: rgb(255, 127, 127);
+    margin-top: 320px;
+    margin-left: 570px;
+    border-radius: 50px;
+    transform: rotate(352deg);
+}
+
+.bell-circle-1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgb(250, 233, 134);
+    border-radius: 50%;
+    margin-top: 340px;
+    margin-left: 650px;
+}
+
+.bell-triangle{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 58px solid rgb(250, 233, 134);
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 622px;
+}
+
+.bell-circle-2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(250, 233, 134);
+    border-radius: 50%;
+    margin-top: 400px;
+    margin-left: 654px;
+}
