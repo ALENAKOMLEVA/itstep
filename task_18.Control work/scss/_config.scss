@@ -1,0 +1,31 @@
+$white: #fff;
+$pink: #f42267;
+$brown: #57001d;
+$purple: #72338f;
+$grey: #484848;
+$grey-light: #e7e7e7;
+$pink-1: #ff5990;
+$purple-1: #836ea7;
+$purple-2: #4b2d7e;
+$purple-3: #a57ee9;
+$purple-4: #7647c7;
+$black: #000;
+
+@mixin font ($w,$s) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: $w;
+    font-size: $s;
+}
+
+@mixin font-2 ($q,$e) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: $q;
+    font-size: $e;
+}
+
+@mixin font-3 ($r,$t,$y) {
+    font-family: 'Bona Nova', serif;
+    font-weight: $r;
+    font-size: $t;
+    font-style: $y;
+}
