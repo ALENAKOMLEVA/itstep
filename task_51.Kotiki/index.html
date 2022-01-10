@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" name = "form" id="formId">
+        
+            <input type="text" name="catName" id="catName"  value="" placeholder="Имя котика">
+            
+            <div class="color">
+                <input type="color" id="catColor" name="catColor" value="#ffffff">
+                
+            </div>
+           
+            <select name="breeds" id="breeds">
+                <option value="0">Выберите породу</option>
+                <option value="no">Без породный</option>
+                <option value="b">Британец</option>
+                <option value="s">Сфинкс</option>
+            </select>
+
+            <div id="select_sex" name = "selectSex" class="select_breed">
+                <input type="radio" name="sex" value="sexm"><label for="sex_male">Кот</label>
+                <input type="radio" name="sex" value="sexf"><label for="sex_female">Кошка</label>
+            </div>
+    
+            <div class="form_button">
+                <button name="submit">Отправить</button>
+            </div>
+    
+        </form>
+    
+    </div>
+    <div class="table-form">
+        <table id="table">
+            <tr>
+                <td>Имя</td>
+                <td>Цвет</td>
+                <td>Порода</td>
+                <td>Пол</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
