@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 768px;
+
+}
+.header{
+    background-color: rgb(127, 197, 255);
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.task{
+    border: 2px solid rgb(0, 71, 129);
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+}
+.button_list{
+    color: #fff;
+    background-color: rgb(0, 71, 129);
+    border-radius: 5px;
+    padding: 10px;
+}
+.main-list{
+    background-color: rgb(168, 214, 255);
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(0, 71, 129);
+}
+ul li.checked {
+    background: rgb(0, 71, 129);
+    color: #fff;
+    text-decoration: line-through;
+    
+}
+
+.cross{
+    position: relative;
+    float: right;
+}
