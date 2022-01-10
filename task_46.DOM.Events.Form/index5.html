@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style5.css">
+</head>
+<body>
+   <div class="container">
+    <form action="" name = "form" id="formId">
+        
+        <input type="text" name="FIO" id="FIO"  value="" placeholder="Введите ФИО">
+        <div id="errorOne"></div>
+        
+        <input type="text" name="email" id="email" value="" placeholder="Введите Email">
+        <div id="error"></div>
+       
+
+        <div id="select_sex" name = "select_sex">
+            <input type="radio" name="sex" value="sexm"><label for="sex_male">Мужской</label>
+            <input type="radio" name="sex" value="sexf"><label for="sex_female">Женский</label>
+        </div>
+
+        <select name="lang_p" id="lang_p">
+            <option value="0">Выберите язык</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+        </select>
+
+        <div class="robot_check" name = "robotCheck">
+            <input type="checkbox" name="norobot" id="norobot" value="no"><label for="norobot">"Я не робот"</label>
+        </div>
+
+        <div class="form-control">
+            <button>Отправить</button>
+        </div>
+
+    </form>
+
+   </div>
+    
+    <script src="./js/script6.js"></script>
+</body>
+</html>
