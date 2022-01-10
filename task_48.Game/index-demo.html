@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style-demo.css">
+    
+</head>
+<body>
+    <div class="block-game" id="block-game">
+        <form action="" name="form_start" class="form_start" id="block">
+            <div class="col-12 btn-block" >
+                <button class="btn btn-primary button_start" name="button_start">START</button>
+            </div>
+            <div class="col-12 btn-block">
+                <button class="btn btn-primary button_static" name="button_static">STATIC</button>
+            </div>
+          </form>
+
+
+          <form action="" name="reg_form" class="reg_form d-none" id="form">
+            <div class="col-12">
+              <label for="exampleInputEmail1" class="form-label">Player 1</label>
+              <input type="text" class="form-control" id="input_a" name="player1_name" required>
+            </div>
+
+            <div class="col-12 input-2">
+              <label for="exampleInputPassword1" class="form-label">Player 2</label>
+              <input type="text" class="form-control" id="input_b" name="player2_name" required>
+            </div>
+
+            <div class="col-12 btn-block">
+                <button class="btn btn-primary button_form" name="buttonStart" id="buttonStart">Start</button>
+            </div>
+          </form>
+
+          <form action="" name="game_form" class="game_form d-none">
+            <div class="col-12 current">
+                
+            </div>
+
+            <div class="col-12 field">
+                
+            </div>
+
+            <div class="col-12 result">
+                
+            </div>
+        </form>
+    </div>
+    <script src="./js/script-demo.js"></script>
+</body>
+</html>

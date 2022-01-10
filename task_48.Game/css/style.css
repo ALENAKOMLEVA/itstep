@@ -1,0 +1,67 @@
+.button_block{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    
+}
+
+
+.reg-form{
+    border: 1px solid rgb(153, 82, 0);
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    width: 30%;
+    background: #ffb14c;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.input_a{
+    width: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px; 
+    border-radius: 10px;
+    border: none;
+}
+.input_b{
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    border: none;
+}
+
+.form_start{
+    width: 80px;
+    height: 30px;
+    background: crimson;
+    border-radius: 10%;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 3px solid rgb(104, 0, 21);
+}
+
+.start{
+    width: 100px;
+    height: 50px;
+    background: rgb(4, 145, 14);
+    color: black;
+    border: 3px solid rgb(0, 65, 0);
+    border-radius: 10%;
+    letter-spacing: 2px;
+    margin-right: 30px;
+}
+
+
+.static{
+    width: 100px;
+    height: 50px;
+    background: rgb(227, 230, 83);
+    color: black;
+    border: 3px solid rgb(172, 154, 0);
+    border-radius: 10%;
+    letter-spacing: 2px;
+}
