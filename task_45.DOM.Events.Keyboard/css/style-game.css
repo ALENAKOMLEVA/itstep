@@ -1,0 +1,31 @@
+
+.field{
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(4, 48, 0);
+}
+.field > div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+.green{
+    background: rgb(0, 80, 11);
+}
+.green-light{
+    background: rgb(11, 133, 0);
+}
+.robot{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background: rgb(194, 103, 0);
+    
+}
+
+.wall{
+    width: 100px;
+    height: 100px;
+    background: rgb(36, 13, 0);
+}
