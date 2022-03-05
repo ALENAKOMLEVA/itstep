@@ -1,0 +1,10 @@
+.main-block{
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.notes{
+    width: 200px;
+   
+}

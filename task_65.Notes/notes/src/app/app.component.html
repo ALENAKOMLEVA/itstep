@@ -1,0 +1,27 @@
+
+  <div class="main-block">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Дата заметки</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Название заметки</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" [(ngModel)]="nameNotes">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Текст заметки</label>
+        <textarea class="form-control" id="text" [(ngModel)]="text"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary" (click)="addPost()">Создать</button>
+    </form>
+  </div>
+  <div class="notes">
+    <div class="col-6">
+      <app-note-list [notes]="posts"></app-note-list>
+    </div>
+  </div>
+

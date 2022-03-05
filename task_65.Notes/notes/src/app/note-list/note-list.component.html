@@ -1,0 +1,9 @@
+<div *ngFor="let note of notes" class="toast show">
+    <div class="toast-header">
+        <strong class="me-auto">{{note.nameNotes}}</strong>
+        <small>{{note.date}}</small>
+    </div>
+    <div class="toast-body">
+        {{note.text}}
+    </div>
+</div>
