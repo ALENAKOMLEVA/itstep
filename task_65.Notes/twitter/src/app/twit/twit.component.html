@@ -1,0 +1,23 @@
+<!-- <div *ngFor="let twit of twits" class="notes">
+    <span class="close" (click) = "doneTask()">×</span>
+    <div class="notes-header">
+      <div class="me-auto name-notes">Название: {{twit.nameNotes}} </div>
+      <div class="time">Время: {{twit.date}}</div>
+    </div>
+    <div class="notes-body">
+        {{twit.text}}
+    </div>
+</div> -->
+
+<ul>
+  <li *ngFor="let twit of twits" class="notes">
+    <span class="close" (click)="doneTask(twit)">×</span>
+    <div class="notes-header">
+      <div class="me-auto name-notes">Название: {{twit.nameNotes}} </div>
+      <div class="time">Время: {{twit.date}}</div>
+    </div>
+    <div class="notes-body">
+        {{twit.text}}
+    </div>
+  </li>
+</ul>

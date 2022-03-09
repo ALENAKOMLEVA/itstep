@@ -1,0 +1,32 @@
+.notes{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 24, 92);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.name-notes{
+    font-weight: bold;
+}
+.time{
+    font-size: 10px;
+    border-bottom: 2px solid rgb(0, 24, 92);
+}
+.close{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}

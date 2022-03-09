@@ -1,0 +1,28 @@
+
+<div class="container">
+    <div class="row">
+        <div class="form">
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="user" class="form-label">Дата заметки</label>
+                    <input type="date" class="form-control" id="user" [(ngModel)]="date">
+                </div>
+                <div class="mb-3">
+                    <label for="user" class="form-label">Название заметки</label>
+                    <input type="text" class="form-control" id="user" [(ngModel)]="nameNotes">
+                </div>
+                <div class="mb-3">
+                    <label for="text" class="form-label">Текст заметки</label>
+                    <textarea class="form-control" id="text" [(ngModel)]="text"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" (click)="addPost()">Создать</button>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div class="twits">
+    <div class="col-12">
+        <app-twit [twits]="posts"></app-twit>
+    </div>
+</div>
